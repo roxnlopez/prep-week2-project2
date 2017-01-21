@@ -5,8 +5,8 @@
 Below are a number of problems for you to solve
 using JS. The JS code can be written below each
 problem and the results can be displayed into the
-HTML page. In some cases, you may want to check 
-within the console for verification of the array. 
+HTML page. In some cases, you may want to check
+within the console for verification of the array.
 
 console.log();
 
@@ -24,14 +24,15 @@ document.getElementById("q0").classList.add("status-good");
 
 // 1. Declare a variable whose value is an empty array.
 //    Use any method you choose to add at least 4 items to it.
-
+var value = [];
+value.push('panda', 'penguin', 'dolphin', 'moose');
 
 
 
 
 
 // 2. Add an additional item to the beginning of your array.
-
+value.unshift('llama');
 
 
 
@@ -188,11 +189,11 @@ var sortingNumbers = [2, 5, 98, 55, 77, 300];
 
 /* SANDBOX TRACK
 
-Solving all of these problems is a great step in the right direction, 
-but the next step is coming up with your own arrangements to solve 
+Solving all of these problems is a great step in the right direction,
+but the next step is coming up with your own arrangements to solve
 new problems. Practice creating your own problems to solve and their solutions -
-you can even challenge your classmates! 
- 
-Also, consider how you can add/remove CSS styles to create added presentation with the results. 
+you can even challenge your classmates!
+
+Also, consider how you can add/remove CSS styles to create added presentation with the results.
 
 */
