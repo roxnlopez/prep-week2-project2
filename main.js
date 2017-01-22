@@ -137,7 +137,7 @@ var array4 = [
                 ["Bulldog", "Lab", "Dalmation", "Beagle"],
                 ["White", "Black", "Spotted", "Tri-color"]
               ]
-              
+
         var array1 = ["Fido", "Spot", "Rex", "Sparky"]
         var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"]
         var array3 = ["White", "Black", "Spotted", "Tri-color"]
@@ -153,7 +153,12 @@ var array4 = [
 
 
 // 12. Remove "Sparky" and "White" from the above array of arrays.
+var array4 = [array1, array2, array3];
+array4.splice(3, 0, [array2] 0,0);
 
+document.getElementById("message").innerHTML = array4;
+
+console.log(array4);
 
 
 
