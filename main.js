@@ -106,9 +106,9 @@ console.log(things);
 
 
 // 9. Remove all items from the things array.
-
-
-
+var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
+things = [];
+document.getElementById("q9").innerHTML = things;
 
 
 
