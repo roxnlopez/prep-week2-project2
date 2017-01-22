@@ -26,22 +26,23 @@ document.getElementById("q0").classList.add("status-good");
 //    Use any method you choose to add at least 4 items to it.
 var value = [];
 value.push('panda', 'penguin', 'dolphin', 'moose');
-
+document.getElementById("message").innerHTML = value;
 
 
 
 
 // 2. Add an additional item to the beginning of your array.
+var value = ['panda', 'penguin', 'dolphin', 'moose'];
 value.unshift('llama');
-
-
+document.getElementById("message").innerHTML = value;
 
 
 
 // 3. Remove the second and third items in your array.
+var value = ['panda', 'penguin', 'dolphin', 'moose'];
+value.splice(1,2);
 
-
-
+document.getElementById("message").innerHTML = value;
 
 
 
