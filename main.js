@@ -79,8 +79,13 @@ document.getElementById("q6"),innerHTML = things;
 
 // 7. Combine all of the elements of the array into a string.
 //    (Hint: check out the 'join' method.)
+var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
+var office = things.join();
 
+document.getElementById("q7").innerHTML = office;
+
+console.log(office);
 
 
 
