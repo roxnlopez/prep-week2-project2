@@ -26,7 +26,7 @@ document.getElementById("q0").classList.add("status-good");
 //    Use any method you choose to add at least 4 items to it.
 var value = [];
 value.push('panda', 'penguin', 'dolphin', 'moose');
-document.getElementById("message").innerHTML = value;
+document.getElementById("q1").innerHTML = value;
 
 
 
@@ -34,7 +34,7 @@ document.getElementById("message").innerHTML = value;
 // 2. Add an additional item to the beginning of your array.
 var value = ['panda', 'penguin', 'dolphin', 'moose'];
 value.unshift('llama');
-document.getElementById("message").innerHTML = value;
+document.getElementById("q2").innerHTML = value;
 
 
 
@@ -42,18 +42,23 @@ document.getElementById("message").innerHTML = value;
 var value = ['panda', 'penguin', 'dolphin', 'moose'];
 value.splice(1,2);
 
-document.getElementById("message").innerHTML = value;
+document.getElementById("q3").innerHTML = value;
 
 
 
 // 4. Add two new items after the second item.
+var value = ['panda', 'penguin', 'dolphin', 'moose'];
+value.splice(2, 2, 'Quokka', 'Lion');
 
-
+document.getElementById("q4").innerHTML = value;
 
 
 
 
 // 5. Log to the console: 'The current length of the array is....' using the .length method
+var value = ['panda', 'penguin', 'dolphin', 'moose'];
+concole.log(value.length);
+document.getElementById("q5").innerHTML = value.length;
 
 
 
