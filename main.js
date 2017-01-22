@@ -91,7 +91,13 @@ console.log(office);
 
 
 // 8. Remove the first item.
+var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
+var office = things.shift();
+
+document.getElementById("q8a").innerHTML = things;
+
+console.log(things);
 
 
 
