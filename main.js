@@ -137,14 +137,15 @@ var array4 = [
                 ["Bulldog", "Lab", "Dalmation", "Beagle"],
                 ["White", "Black", "Spotted", "Tri-color"]
               ]
-              var array1 = ["Fido", "Spot", "Rex", "Sparky"]
-              var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"]
-              var array3 = ["White", "Black", "Spotted", "Tri-color"]
-              var array4 = [array1, array2, array3];
+              
+        var array1 = ["Fido", "Spot", "Rex", "Sparky"]
+        var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"]
+        var array3 = ["White", "Black", "Spotted", "Tri-color"]
+        var array4 = [array1, array2, array3];
 
-              document.getElementById("q11").innerHTML = array4;
+        document.getElementById("q11").innerHTML = array4;
 
-              console.log(array4);
+        console.log(array4);
 
 
 
