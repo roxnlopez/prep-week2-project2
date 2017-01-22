@@ -117,8 +117,10 @@ document.getElementById("q9").innerHTML = things;
 var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 
 // 10. Arrange the items alphabetically. Store this Array as orderedPeople
+var orderedPeople = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
+orderedPeople.sort();
 
-
+document.getElementById("q10").innerHTML = orderedPeople;
 
 
 
@@ -135,7 +137,14 @@ var array4 = [
                 ["Bulldog", "Lab", "Dalmation", "Beagle"],
                 ["White", "Black", "Spotted", "Tri-color"]
               ]
+              var array1 = ["Fido", "Spot", "Rex", "Sparky"]
+              var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"]
+              var array3 = ["White", "Black", "Spotted", "Tri-color"]
+              var array4 = [array1, array2, array3];
 
+              document.getElementById("q11").innerHTML = array4;
+
+              console.log(array4);
 
 
 
