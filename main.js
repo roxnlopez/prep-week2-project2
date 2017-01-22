@@ -70,8 +70,9 @@ document.getElementById("q5").innerHTML = value.length;
 var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
 // 6. Change 'mouse' to 'keyboard'
-
-
+var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
+things.splice(2,1 'keyboard');
+document.getElementById("q6"),innerHTML = things;
 
 
 
